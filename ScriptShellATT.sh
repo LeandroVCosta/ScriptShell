@@ -43,7 +43,7 @@ then
            sleep 3
            break
    fi
-else;
+else
     echo "Opção Vazia"
 fi
 done
