@@ -38,7 +38,7 @@ then
         sleep 3
         git clone https://github.com/PedroMoretti12/TRACK-VISION.git       
 
-   else;
+   else
            echo "Opção Inválida, Encerrando o Instalador"
            sleep 3
            break
