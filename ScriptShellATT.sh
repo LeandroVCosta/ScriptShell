@@ -36,7 +36,18 @@ then
         clear
         echo "Baixando o projeto ..."
         sleep 3
-        git clone https://github.com/PedroMoretti12/TRACK-VISION.git       
+        git clone https://github.com/PedroMoretti12/TRACK-VISION.git  
+
+    elif [ $ESCOLHA -eq 4 ]
+     then
+        clear
+        echo "Instalando o PIP"
+        sleep 3
+        sudo apt install pip -y
+        sleep 3
+        clear
+        echo "Instalando Bibliotecas"
+        sudo pip install -r requirements.txt
 
    else
            echo "Opção Inválida, Encerrando o Instalador"
