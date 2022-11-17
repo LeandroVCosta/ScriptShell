@@ -5,7 +5,8 @@ echo "Escolha 1 das seguintes opções \n
       1- Instalar Java
       2 - Atualizar os pacotes Linux
       3 - Baixar Projeto
-      4 - Sair"
+      4 - Instalar PIP e Bibliotecas
+      NDA - Sair"
 read -p "Digite a sua escolha: " ESCOLHA
 
 if [ -n "$ESCOLHA" ];
